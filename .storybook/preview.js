@@ -61,14 +61,15 @@ export const decorators = [
     if (mode === 'dark') {
       style = `.sb-show-main { background: #292929 !important; }`;
     }
-
-    return html`
-      <style>${style}</style>
-      <div brand=${brand} theme=${theme} mode=${mode}>
-      <link rel="stylesheet" type="text/css" href="tokens/global.css" />
-      <link rel="stylesheet" type="text/css" href="tokens/${brand}/${theme}/${mode}.css" />
-        ${Story()}
-      </div>
-    `;
+    return (
+      <>
+        <style>{style}</style>
+        <div brand={brand} theme={theme} mode={mode}>
+        <link rel="stylesheet" type="text/css" href="tokens/global.css" />
+        <link rel="stylesheet" type="text/css" href={`tokens/${brand}/${theme}/${mode}.css`} />
+          {Story()}
+        </div>
+      </>
+    );
   }
 ]
