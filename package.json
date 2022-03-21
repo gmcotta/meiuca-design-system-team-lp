@@ -1,6 +1,6 @@
 {
-  "name": "design-system-team-lp",
-  "version": "1.0.0",
+  "name": "@gmcotta/design-system-team-lp",
+  "version": "1.0.1",
   "description": "Biblioteca de time em React do curso de Design Systems para desenvolvedores da Meiuca",
   "repository": {
     "type": "git",
