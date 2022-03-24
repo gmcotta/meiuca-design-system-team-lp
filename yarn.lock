@@ -1382,10 +1382,10 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@gmcotta/design-system-core@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-core/-/design-system-core-1.1.5.tgz#a3d407d416d0a5d5ef21d418febcef69dc2454ff"
-  integrity sha512-UMBu6bPAhXMNWdtjfZDqJZ73mwcerI8uCgH+R6jikUtR2gEe8Ch5MryBpPS11in/9QfHAeQ791N+bTUSVxwrrg==
+"@gmcotta/design-system-core@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-core/-/design-system-core-1.1.6.tgz#f13647c8bff7fc8aaf3c98e28f9fa2a892bd396d"
+  integrity sha512-6OYp0CLa+GzGhqLKmCrl2TiZ/87WmdOILTpaPUh57E4JzVWjyxvuGuZnl/YXi0Rp6zcCQ8x/ezuECspN+mdWVg==
   dependencies:
     "@gmcotta/design-tokens" "^1.0.2"
     "@gmcotta/meiuca-assets" "^1.0.0"
