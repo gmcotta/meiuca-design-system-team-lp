@@ -1382,24 +1382,24 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@gmcotta/design-system-core@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-core/-/design-system-core-1.1.7.tgz#7efb4f8d57e93d9f442136e660750118b8461dd2"
-  integrity sha512-qXYAx5H9a7qZF+H/KIq2Ak+ZkSLVqR1RUze0OjDDqFkSNg3bI5VOUEo4AP8WjcmOUb7Eln3TmfWEzGTLyJXUOg==
+"@gmcotta/design-system-core@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-core/-/design-system-core-1.1.8.tgz#929766d8475643cfa5f5cd4b6b8052bb2d74fefa"
+  integrity sha512-dEKW/PKTXIVvUu0mhUsH21Gjpmgta7zGdonpEEoEiercrF9BVQTQ74XOSDIA9qQyOMXuB7kvuCk6Z0Z1scWp/A==
   dependencies:
-    "@gmcotta/design-tokens" "^1.0.2"
-    "@gmcotta/meiuca-assets" "^1.0.0"
+    "@gmcotta/design-tokens" "^1.0.3"
+    "@gmcotta/meiuca-assets" "^1.0.1"
     lit "^2.2.0"
 
-"@gmcotta/design-tokens@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@gmcotta/design-tokens/-/design-tokens-1.0.2.tgz#c74209efa0dabe7c031aa93d61fb989ce456c6fe"
-  integrity sha512-CE2dUdxyYMEqyeYoB0Y1XEHBOjQkMt5XzyvOsZgiOXTl3nnt2zTgN1qIMyYhBWHTLwV1kkiB2Enj6pECMefbQw==
+"@gmcotta/design-tokens@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@gmcotta/design-tokens/-/design-tokens-1.0.3.tgz#5646e0e64718c888489b8f6b24a64117feea86eb"
+  integrity sha512-xoh7430Sb3lcK4sPnCcqiM/gbheFmUK4PG0iND/DowQ88zKGzG5191/ESMA5BpYDb97wNNZIEPMNjnSVLSfu/w==
 
-"@gmcotta/meiuca-assets@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@gmcotta/meiuca-assets/-/meiuca-assets-1.0.0.tgz#1850651533f4bd456114b5e0d48302b7a134e089"
-  integrity sha512-2OcQ+sWgUgq6VZ08T0Ks5Te7QEE+QMyPACsYR1od76TCyEHBZKsu3SjutezFTmrhQhcWyA6vXZJc0VLWHDskUg==
+"@gmcotta/meiuca-assets@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@gmcotta/meiuca-assets/-/meiuca-assets-1.0.1.tgz#4a31a446052cddfa1b81410e248487d159aaa862"
+  integrity sha512-wE2Xg5mFsSgtSqZmJJoUawbyB1LNb1nUYXdGziCyQ7bBsVKdjZtIopF0SZA+fCANzaKHHPLO/0r0Zp0IoxXQeg==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
