@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Meiuca - Biblioteca de componentes de time
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Storybook da aplicação](meiuca-design-system-team-lp.vercel.app)
 
-## Available Scripts
+### Introdução
 
-In the project directory, you can run:
+Esse repositório tem o objetivo de mostrar uma biblioteca de componentes de time de uma landing page para um design system, criada a partir do curso de Design Systems in Code, da Meiuca.
 
-### `yarn start`
+Ao longo do curso, desenvolvemos um design system contendo design tokens, assets (ícones), uma biblioteca de componentes core (contendo os elementos mais primitivos, como botão, input, tipografia...) e uma biblioteca de times (que usa da biblioteca core para criar seus componentes, que serão usados para um produto específico). Dentro da landing page também possuem componentes que não fazem parte do design system e é exclusivo para a página desenvolvida.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Abaixo encontram-se os links para os repositórios do design system:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Design Tokens](https://github.com/gmcotta/meiuca-design-tokens)
+- [Assets](https://github.com/gmcotta/meiuca-assets)
+- [Biblioteca Core](https://github.com/gmcotta/meiuca-design-system-core)
+- [Biblioteca de Time](https://github.com/gmcotta/meiuca-design-system-team-lp)
+- [Landing Page](https://github.com/gmcotta/meiuca-ds-landing-page)
 
-### `yarn test`
+Abaixo encontra-se também o link para o projeto do design system e da landing page no Figma:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Figma](https://www.figma.com/file/ADrWGQ6GfDjIMKkWsJ65M0/DS-in-Code-%7C-Atividade-pr%C3%A1tica?node-id=2%3A3199)
 
-### `yarn build`
+***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Os componentes foram desenvolvidos usando a biblioteca core, e também React. Como a landing page será desenvolvida em React, podemos também usar React para desenvolver os componentes dessa biblioteca, usando como base a biblioteca core, que usa web-components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para a criação da biblioteca foram usados:
+- [React](https://reactjs.org/), como biblioteca de UI;
+- [Storybook](https://storybook.js.org/), para apresentar e documentar os componentes e suas propriedades;
+- [SASS](https://sass-lang.com/), para estilizar os componentes.
 
-### `yarn eject`
+### Componentes
+- Card Content
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Como iniciar localmente a página
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Primeiramente, baixe o repositório:
+```bash
+  git clone git@github.com:gmcotta/meiuca-design-system-core.git <nome_da_pasta>
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Entre na pasta gerada:
+```bash
+  cd nome_da_pasta
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instale as dependências (uso o Yarn para gerenciar os pacotes):
+```bash
+  yarn
+```
 
-## Learn More
+Para iniciar o Storybook:
+```bash
+  yarn storybook
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para fazer o build da aplicação:
+```bash
+  yarn compile
+```
+A pasta gerada é ```dist```.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para fazer o build do Storybook:
+```bash
+  yarn build-storybook
+```
+A pasta gerada é ```storybook-static```.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para publicar o pacote:
+```bash
+  npm publish --access public
+```
